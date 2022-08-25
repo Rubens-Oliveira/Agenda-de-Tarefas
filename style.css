@@ -1,0 +1,46 @@
+body {
+  background-color: #a0acac;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+#atividade {
+  padding: 5px;
+}
+
+#dataAtv {
+  padding: 4px;
+}
+
+#btnCadastrar {
+  padding: 4.5px;
+  background-color: rgb(10, 180, 180);
+}
+
+.container {
+  background-color: rgb(212, 223, 233);
+  width: 50%;
+  height: 300%;
+  margin-top: 2%;
+  margin-left: 23%;
+}
+
+#inicio {
+  margin: 3% 0 1% 32%;
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  font-size: 25px;
+}
+
+.tabela {
+  margin-left: 38%;
+}
