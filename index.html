@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Agenda de Tarefas</title>
+</head>
+
+<body>
+  <h1>AGENDA DE TAREFAS</h1>
+  <section class="container">
+    <!--formulario-->
+    <div id="inicio">
+      <form method="post">
+        <input type="text" id="atividade" placeholder="Digite Sua Atividade Aqui">
+        <input type="date" id="dataAtv">
+        <input type="submit" id="btnCadastrar" value="Cadastrar Atividade">
+      </form>
+    </div>
+    <div class="tabela">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Atividade</th>
+            <th>Data</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody id="lista"></tbody>
+      </table>
+    </div>
+
+    <!--lista - td e tr sendo adicionadas via JS-->
+    <div> </div>
+  </section>
+  <script src="script.js"></script
+</body>
+</html>
